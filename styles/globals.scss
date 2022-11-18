@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica Neue, sans-serif;
+  background-color: #141414;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:hover{
+  color: white;
+  background-color: red;
+}
+
+.form-control{
+  height: 70px;
+  border-radius: 8px 0 0 8px;
+}
+
+.btn-danger {
+  background-color: #e50914;
+  margin-right: 25px;
+}
+
+
