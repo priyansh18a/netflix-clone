@@ -8,7 +8,7 @@ interface Response {
   data: Media[] | Error;
 }
 
-const apiKey = 'c5485b098c330d646c426d4f80fd0b2a';
+const apiKey = process.env.API_KEY;
 
 export default async function handler(request: NextApiRequest, response: NextApiResponse<Response>) {
   const { type, time } = request.query;
